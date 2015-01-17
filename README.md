@@ -1,4 +1,4 @@
 RESS
 ====
 
-Responsive Design with Server Side elements. A PoC with PHP & WURFL.
+Responsive Design with Server Side elements (also known as Adaptive Web Design). A PoC with PHP & WURFL.

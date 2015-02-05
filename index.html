@@ -1,19 +1,26 @@
 <!doctype html>
 <head>
-<title>Sample HTML5 App</title>
+<title>Ress Demo</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
+<script>
+window.onload = function(){
+	console.log(WURFL);
+	if(WURFL.is_mobile){
+		document.getElementById("mcheck").style.display = "none";
+		console.log('this is mobile');
+	} else{
+		document.getElementById("mcheck").style.display = "block";
+		console.log('this is NOT a mobile');
+	}
+}
+</script>
 </head>
 <body>
-<h1>Welcome to HTML5 Apps</h1>
-<p>Content comes here..... pretty shortly. :)</p>
-<p>Content comes here..... pretty shortly. :)</p>
-<p>Content comes here..... pretty shortly. :)</p>
-<p>Content comes here..... pretty shortly. :)</p>
-<p>Content comes here..... pretty shortly. :)</p>
-<p>Content comes here..... pretty shortly. :)</p>
-    <div>
-        something to add for the <b>heck</b> of it.
-    </div>
+<h1>Welcome to RESS Demo</h1>
+<p>Using WURFL.JS we'll try creating device specific stuff.</p>
+<div>BTW, you are<span id="mcheck"> not</span> browsing through a mobile device</div>
+<p>Pretty interesting :)</p>
 </body>
 </html>

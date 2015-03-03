@@ -1,26 +1,26 @@
 <!doctype html>
 <head>
-<title>Ress Demo, Adaptive Design, WURFL</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
-<script>
-window.onload = function(){
-	console.log("WURFL Object: "+WURFL);
-	if(WURFL.is_mobile){
-		document.getElementById("mcheck").style.display = "none";
-		console.log('this is mobile');
-	} else{
-		document.getElementById("mcheck").style.display = "block";
-		console.log('this is NOT a mobile...');
-	}
-}
-</script>
+	<title>Ress Demo, Adaptive Design, WURFL</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
+	<script>
+		window.onload = function(){
+			console.log("WURFL Object: "+WURFL);
+			if(WURFL.is_mobile){
+				document.getElementById("mcheck").style.display = "none";
+				console.log('this is mobile');
+			} else{
+				document.getElementById("mcheck").style.display = "block";
+				console.log('this is NOT a mobile...');
+			}
+		}
+	</script>
 </head>
 <body>
-<h1>Welcome to RESS Demo</h1>
-<p>Using WURFL.JS we'll be creating device specific stuff.</p>
-<div>BTW, you are<span id="mcheck"> not</span> browsing through a mobile device</div>
-<p>Pretty interesting... welcome aboard :)</p>
+	<h1>Welcome to RESS Demo</h1>
+	<p>Using WURFL.JS we'll be creating device specific stuff.</p>
+	<div>BTW, you are<span id="mcheck"> not</span> browsing through a mobile device</div>
+	<p>Pretty interesting... welcome aboard :)</p>
 </body>
 </html>

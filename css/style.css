@@ -144,7 +144,6 @@ nav a:hover{
 /* ===============
     ALL: IE Fixes
    =============== */
-
 .ie7 #title{ padding-top:20px; }
 
 
@@ -260,3 +259,5 @@ nav a:hover{
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+.main{}
